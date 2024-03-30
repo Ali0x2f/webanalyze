@@ -18,7 +18,7 @@ import (
 const VERSION = "0.3.9"
 
 var (
-	timeout = 8 * time.Second
+	timeout = 30 * time.Second
 	wa      *WebAnalyzer
 )
 
